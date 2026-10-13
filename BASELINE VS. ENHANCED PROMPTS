@@ -31,3 +31,9 @@ def get_response(prompt):
 print("\n--- BASELINE PROMPT ---")
 print(baseline_prompt)
 print("\n--- BASELINE RESPONSE ---")
+print(get_response(baseline_prompt))
+ 
+print("\n--- ENHANCED PROMPT ---")
+print(enhanced_prompt)
+print("\n--- ENHANCED RESPONSE ---")
+print(get_response(enhanced_prompt))
